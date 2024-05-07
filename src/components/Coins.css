@@ -1,0 +1,372 @@
+.btc-cards:hover{
+background-color: rgb(22, 21, 21);
+}
+.btc-cards-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 217, 146);
+    width: 82%;
+    margin: auto;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 111, 0);
+    
+    margin-top: 2rem ;
+    
+}
+.btc-image-info{
+    width: 13.5rem;
+    padding-left: 20px;
+    margin-left: 10px;
+    
+    
+}
+
+.btc-price-info{
+    width: 8rem;
+    padding-left: 5px;
+    text-align: right;
+    margin-right: -5px;
+    
+    
+}
+.btc-change-info{
+    width: 8rem;
+    margin-right: -5px;
+    
+}
+.market-info{
+    margin-right: 10px;
+    width: 10rem;
+    text-align: right;
+}
+.btc-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 82%;
+    margin: auto;
+    height: 6rem;
+    font-weight: bold;
+    
+}
+.btc-image{
+    width: 15rem;
+    padding:10px 0px 10px 0px;
+    margin-left: 10px;
+    
+}
+.btc-coinname{
+    width: 8rem;
+    width: 10rem;
+    margin-left: 0.5rem;
+}
+.btc-price{
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+
+}
+.btc-change{
+    width: 7rem;
+    text-align: right;
+}
+.market-cap{
+    width: 10rem;
+    text-align: right;
+    margin-right: 10px;
+}
+.hori-line{
+    border:0.05px solid rgb(100, 100, 93) ;
+     width:82%;
+     margin:auto;
+}
+
+.btns button{
+   height: 2.3rem;
+   background-color: orange;
+   border: none;
+   margin-left: 2rem;
+   width: 5rem;
+   border-radius: 10px;
+   font-weight: bold;
+}
+.btns{
+    width: 50%;
+    margin-left: 4.5rem;
+    margin-top: 2rem;
+   
+    padding: 1rem;
+    color: rgb(247, 249, 250);
+}
+.btns>button:hover{
+    background-color: rgb(240, 240, 186);
+  }
+  .btns>button:active{
+    background-color: rgb(182, 182, 32);
+  }
+  .btc-coinname>span:first-child{
+    font-size: 18px;
+    
+  }
+  .btc-coinname>span:last-child{
+    font-size: 15px;
+    
+  }
+
+@media only screen and (max-width: 900px) {
+    .btc-cards-info{
+        
+        width: 90%;
+        margin: auto;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        font-size: 17px;
+        margin-top: 2rem ;
+        border: 1px solid black;
+        
+    }
+    .btc-image-info{
+        width: 13.5rem;
+        padding-left: 20px;
+        margin-left: 10px;
+        
+        
+    }
+
+    .btc-price-info{
+        width: 8rem;
+        padding-left: 5px;
+        margin-right: -5px;   
+    }
+    .btc-change-info{
+        width: 8rem;
+        margin-right: -5px;
+        
+        text-align: right;
+        
+    }
+    .market-info{
+        margin-right: 10px;
+        width: 10rem;
+        text-align: right;
+        
+    }
+    .btc-cards{
+       height: 4.5rem;
+        width: 90%;
+        margin: auto;
+        font-size: 17px;
+        font-weight: bold;
+        
+    }
+    .btc-image{
+        width: 15rem;
+        padding:10px 0px 10px 0px;
+        margin-left: 10px;
+        
+    }
+    .btc-image img{
+        height: 40px;
+        margin-right: 5px;
+      }
+    
+    .btc-coinname{
+        width: 7rem;
+        width: 10rem;
+        margin-left: 0.1rem;
+    }
+    .btc-price{
+        width: 9rem;
+        font-size: 15px;
+    }
+    .btc-change{
+        width: 8rem;
+        font-size: 15px;
+       
+    }
+    .market-cap{
+        width: 10rem;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .hori-line{
+        width:90%;
+        margin:auto;
+    }
+    .btns button{
+        height: 2.1rem;
+        margin-left: 2rem;
+        width: 4.2rem;
+        border-radius: 10px;
+        
+     }
+     .btns{
+         margin-left: 2rem;
+         padding: 0.5rem;
+        }
+
+
+}
+@media only screen and (max-width: 660px) {
+    
+.btns button{
+    width: 3.5rem;
+    margin-left: 1.5rem;
+}
+ .btns{
+    margin-left: 0rem;
+}
+    .btc-cards-info{
+        
+        width: 100%;
+        margin: auto;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        font-size: 15px;
+        margin-top: 2rem ;
+        
+        
+    }
+    .btc-image-info{
+        margin-left: 5px;
+        width: 9rem;
+    }
+    .market-info{
+        width: 8rem;
+    }
+    .btc-change-info{
+        width: 8rem;
+        margin-right: 0px;    
+    }
+    .market-info{
+        margin-right: 10px;
+        width: 8rem;    
+    }
+
+
+    .btc-image img{
+        height: 40px; 
+        margin-right: 5px;
+    }
+   .btc-coinname>span:first-child{
+        font-size: 15px;
+    }
+    .btc-coinname>span:last-child{
+        font-size: 12px;
+    
+    }
+  .btc-cards{
+    height: 4.5rem;
+     width: 100%;
+     margin: auto;
+     font-size: 20px;
+     
+ }
+
+ .btc-image{
+    width: 10rem;
+    margin-left: 5px;
+    
+}
+    .btc-coinname{
+       font-size: 13px;
+       width: 8rem;
+    }
+    .btc-price{
+      font-size: 13px;
+      width:  8rem;
+    }
+    .btc-change{
+     font-size: 13px;
+      width:  7rem;
+    }
+    .market-cap{
+        font-size: 13px;
+      width:  8rem;
+    }
+    .btc-cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+}
+
+@media only screen and (max-width: 480px) {
+    .btc-coinname>span:first-child{
+        font-size: 13px;
+        
+      }
+      .btc-coinname>span:last-child{
+        font-size: 11px;
+        
+      }
+    .search-bar{
+        padding: 5px 10px;
+    }  
+    .btc-image{
+        width: 10rem;
+        margin-left: 5px;
+        
+    }
+    .btc-image img{
+        height: 25px;
+        
+        margin-right: 5px;
+    }
+    .btc-coinname{
+        font-size: 11px;
+        width: 5rem;
+    }
+    .btc-price{
+        font-size: 11px;
+        width:  8rem;
+    }
+    .btc-change{
+     font-size: 11px;
+         width:  7rem;
+    }
+    .market-cap{
+        font-size: 11px;
+        width:  8rem;
+    }
+
+    .btc-cards-info{
+        
+        width: 100%;
+        margin: auto;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        font-size: 11px;
+        margin-top: 2rem ;    
+    }
+
+    .btc-image-info{
+        margin-left: 5px;
+        width: 8rem;
+    }
+    .btc-price-info{
+        width: 6rem;
+        padding-right: 1rem;
+    }
+    
+    .btc-change-info{
+        width: 7rem;
+        margin-right: 0px;
+        
+        text-align: right;
+        
+    }
+    .market-info{
+        margin-right: 10px;
+        width: 8rem;
+        text-align: right;
+        
+    }
+}

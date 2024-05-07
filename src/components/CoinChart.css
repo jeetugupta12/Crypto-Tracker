@@ -1,0 +1,10 @@
+.chart{
+    margin-top:5rem;
+     width:60rem;
+}
+@media only screen and (max-width: 1160px) {
+    .chart{
+        margin-left: 1rem;
+    }
+ }
+

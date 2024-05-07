@@ -1,0 +1,138 @@
+.ex-cards-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 217, 146);
+    width: 82%;
+    margin: auto;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 111, 0);
+    margin-top: 2rem ;
+    
+}
+.name-info{
+    width: 13.5rem;
+    padding-left: 20px;
+    padding-left: 10px;
+}
+
+.price-info{
+    width: 8rem;
+    padding-left: 5px;
+    text-align: right;
+    padding-right: 1rem;
+    
+    
+}
+.rank-info{
+    width: 8rem;
+    text-align: right;
+    padding-right: 1rem;  
+}
+.exchange{
+    width: 82%;
+   margin: auto;
+   
+}
+.ex-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+   
+    
+}
+.exchange:hover{
+    background-color: rgb(22, 21, 21);
+}
+.image{
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    
+}
+.image img{
+    height: 4rem;
+    margin-left: 1rem;
+}
+.name{
+    width: 12rem;
+    margin-left: 5px;
+    
+}
+.price{
+    width: 7rem;
+    text-align: right;
+   
+}
+.rank{
+    width: 7rem;
+    text-align: right;
+    margin-right: 1rem;
+    
+}
+.horizon-line{
+    border:0.05px solid rgb(100, 100, 93) ;
+    width:100%;
+    margin:auto;
+     
+}
+
+@media only screen and (max-width: 600px) {
+   
+     .ex-cards-info{
+         width: 100%;
+        margin: auto;
+        font-size: 17px;
+     }  
+    .name-info{
+        margin-left: 5px;
+        width: 11rem;
+        
+    }
+   
+    .price-info{
+        width: 10rem;
+        margin-right: 0px;   
+        text-align: right;
+        padding-right: 0px;
+    }
+    .rank-info{
+        width: 7rem;
+    }
+    
+   
+    .exchange{
+    width: 100%;
+    margin: auto;
+   }
+   .image{
+    width: 12rem;
+   }
+    .image img{
+    height: 60px;
+    margin-left: 10px;
+    
+    }
+    .name{
+       font-size: 15px;
+       width: 5rem;
+       margin-left: 0.5rem;
+    }
+    .price{
+      font-size: 15px;
+      width:  10rem;
+      
+    }
+    .rank{
+     font-size: 15px;
+     
+    }
+}

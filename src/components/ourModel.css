@@ -1,0 +1,106 @@
+.btc-body img{
+    height: 80vh;
+    text-align: center;
+}
+.btc-body{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4rem;
+    font-size: 5rem;
+    color: rgb(192, 186, 186);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.footer{
+    height: 4rem;
+    margin-top: 5rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    background-color: rgb(14, 13, 13); 
+    color: rgb(187, 187, 182);
+    
+       
+}
+.git{
+    color: white;
+    font-size: 20px;
+    margin-right: 1rem;
+}
+.linkdin{
+    color:rgb(10, 118, 212);
+    font-size: 20px;
+    margin-right: 1rem;
+}
+.gmail{
+    color:rgb(212, 91, 54);
+    font-size: 20px;
+    margin-right: 1rem;
+}
+.social{
+    padding-left: 1rem;
+}
+
+@media only screen and (max-width: 1024px){
+    .btc-body img{
+        height: 60vh;
+        text-align: center;
+        
+    }
+}
+@media only screen and (max-width: 700px) {
+    .btc-body img{
+        height: 70vh;
+    }
+    .btc-body{
+        margin-top: 10rem;
+        height: 80vh;
+    }
+    
+    .btc{
+         margin-top: -4rem;
+        font-size: 4rem;
+        
+    }
+    .footer{
+        height: 3rem;
+        margin-top: 5rem;
+        padding-left: 1rem;
+        font-size: 15px;
+        padding-top: 0.5rem;
+        
+       
+    }
+}
+@media only screen and (max-width: 500px) {
+    .btc-body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btc-body img{
+        height: 50vh;
+        width: auto;  
+    }
+    
+    .btc{
+        margin-top: -4rem;
+        font-size: 3rem;
+        
+    }
+    .footer{
+        height: 3rem;
+        margin-top: 5rem;
+        padding-left: 1rem;
+        font-size: 12px;
+        
+       
+    }
+}
+
